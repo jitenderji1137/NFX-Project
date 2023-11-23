@@ -16,7 +16,7 @@ export const metadata = {
   openGraph: {
     title: 'Netflix - Watch TV Shows Online, Watch Movies Online',
     description: 'Unlock the ultimate entertainment experience with Netflix, where every movie and web series is at your fingertips, completely free of charge. No more waiting for the latest releases, no more financial barriers, Netflix is your passport to endless entertainment, available anytime, anywhere.',
-    images: '/GraphImage.png',
+    images: 'https://i.postimg.cc/bJ8VGYyD/Graph-Image.png',
   },
 }
 
