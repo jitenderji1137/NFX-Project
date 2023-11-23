@@ -1,3 +1,4 @@
+import HomeOne from "./Components/HomeOne/homeone"
 export const metadata = {
   metadataBase: new URL('https://nfx-free.vercel.app/'),
   title: 'Netflix - Watch TV Shows Online, Watch Movies Online',
@@ -27,6 +28,7 @@ export const metadata = {
 export default function generateStaticParams() {
   return (
     <>
+    <HomeOne/>
     </>
   )
 }

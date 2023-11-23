@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background-color: black;
+	scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+	width: 0.5vw;
+	background-color: black;
+}
+body::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background-color: #262a2e;
+}
+.default-ltr-cache-1d568uk{
+    color: red;
+}
