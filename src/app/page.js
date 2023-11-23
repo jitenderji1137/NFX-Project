@@ -1,4 +1,7 @@
+import HomeFive from "./Components/HomeFive/hometwo"
+import HomeFour from "./Components/HomeFour/hometwo"
 import HomeOne from "./Components/HomeOne/homeone"
+import HomeThree from "./Components/HomeThree/homethree"
 import HomeTwo from "./Components/HomeTwo/hometwo"
 export const metadata = {
   metadataBase: new URL('https://nfx-free.vercel.app/'),
@@ -31,6 +34,9 @@ export default function generateStaticParams() {
     <>
     <HomeOne/>
     <HomeTwo/>
+    <HomeThree/>
+    <HomeFour/>
+    <HomeFive/>
     </>
   )
 }

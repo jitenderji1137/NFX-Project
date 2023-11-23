@@ -1,0 +1,32 @@
+.HomeTwo{
+    display: flex;
+    height: 35vw;
+    border-bottom: 0.6vw solid #232323;
+    justify-content: space-around;
+    align-items: center;
+}
+.HomeTwo > div:nth-child(2) {
+    color: white;
+}
+.HomeTwo > div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.HomeTwo > div:nth-child(1) > img {
+    width: 39vw;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+.HomeTwo > div:nth-child(2) > div:nth-child(1) {
+    font-size: 3vw;
+    font-weight: bolder;
+    width: 40vw;
+}
+.HomeTwo > div:nth-child(2) > div:nth-child(2) {
+    color: rgba(255, 255, 255, 0.863);
+    width: 45vw;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+}

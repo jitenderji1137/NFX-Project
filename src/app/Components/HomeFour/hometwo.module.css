@@ -1,0 +1,38 @@
+.HomeTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vw;
+    border-bottom: 0.6vw solid #232323;
+}
+.HomeTwo > div:nth-child(1) {
+    color: white;
+}
+.HomeTwo > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HomeTwo > div:nth-child(2) > img {
+    width: 39vw;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+.HomeTwo > div:nth-child(2) > video {
+    position: absolute;
+    width: 25vw;
+    z-index: 0;
+    margin-top: -10vw;
+}
+.HomeTwo > div:nth-child(1) > div:nth-child(1) {
+    font-size: 3vw;
+    font-weight: bolder;
+    width: 30vw;
+}
+.HomeTwo > div:nth-child(1) > div:nth-child(2) {
+    color: rgba(255, 255, 255, 0.863);
+    width: 40vw;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+}
