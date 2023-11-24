@@ -35,3 +35,27 @@
     font-size: 1.5vw;
     margin-top: 3vw;
 }
+@media screen and (min-width: 0px) and (max-width: 550px) {
+    .HomeTwo{
+        flex-direction: column;
+        height: 90vw;
+    }
+    .HomeTwo > div:nth-child(2) > img {
+        width: 80vw;
+    }
+    .HomeTwo > div:nth-child(2) > video {
+        width: 60vw;
+    }
+    .HomeTwo > div:nth-child(1) > div:nth-child(1){
+        font-size: 6vw;
+        font-weight: bolder;
+        width: 70vw;
+        text-align: center;
+    }
+    .HomeTwo > div:nth-child(1) > div:nth-child(2) {
+        width: 70vw;
+        font-size: 2.5vw;
+        margin-top: 4vw;
+        text-align: center;
+    }
+}

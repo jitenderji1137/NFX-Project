@@ -122,6 +122,44 @@
     width: 2vw;
     height: auto;
 }
-@media screen and (min-width: 0px) and (max-width: 600px) {
-
+@media screen and (min-width: 0px) and (max-width: 550px) {
+    .Heading > div:nth-child(1){
+        font-size: 5vw;
+        max-width: 90vw;
+    }
+    .Heading > div:nth-child(2){
+        font-size: 3vw;
+    }
+    .Heading > div:nth-child(3){
+        font-size: 2.5vw;
+        max-width: 90vw;
+    }
+    .Email > input{
+        width: 30vw;
+        font-size: 2.3vw;
+    }
+    .Email > button{
+        font-size: 2.3vw;
+    }
+    .Nav > div:nth-child(1){
+        width: 15vw;
+    }
+    .Nav > div:nth-child(2) > a{
+        font-size: 2.3vw;
+    }
+    .Nav > div:nth-child(2) > span > div{
+        font-size: 2.3vw;
+    }
+    .Imagess{
+        width: 3vw;
+    }
+    .Images{
+        width: 3vw;
+    }
+    .HomeOneAbs{
+        font-size: 2.3vw;
+    }
+    .HomeOne > div{
+        padding-bottom: 8vw;
+    }
 }
