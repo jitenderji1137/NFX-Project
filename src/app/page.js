@@ -1,6 +1,7 @@
 import HomeFive from "./Components/HomeFive/hometwo"
 import HomeFour from "./Components/HomeFour/hometwo"
 import HomeOne from "./Components/HomeOne/homeone"
+import HomeSix from "./Components/HomeSix/homesix"
 import HomeThree from "./Components/HomeThree/homethree"
 import HomeTwo from "./Components/HomeTwo/hometwo"
 export const metadata = {
@@ -37,6 +38,7 @@ export default function generateStaticParams() {
     <HomeThree/>
     <HomeFour/>
     <HomeFive/>
+    <HomeSix/>
     </>
   )
 }

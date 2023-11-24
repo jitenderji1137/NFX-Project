@@ -1,0 +1,38 @@
+.HomeSix{
+    color: white;
+    margin-top: 5vw;
+}
+.HomeSix > h2{
+    font-size: 3.5vw;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+.Summary{
+    background-color: rgba(128, 128, 128, 0.322);
+    width: 70vw;
+    margin: 0.3vw auto;
+    font-size: 1.7vw;
+    padding: 2vw;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.Summary:hover{
+    background-color: rgba(128, 128, 128, 0.671);
+}
+.SummaryPara{
+    background-color: rgba(128, 128, 128, 0.247);
+    width: 70vw;
+    margin: 0 auto;
+    font-size: 1.5vw;
+    padding: 2vw;
+}
+.ReadytoWatch{
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 5vw;
+}
+.BorderBottom{
+    margin-top: 4vw;
+    border-bottom: 0.6vw solid #232323;
+}
