@@ -1,5 +1,4 @@
 import Styles from "./homesix.module.css"
-import Form from "../HomeOne/form"
 export default function HomeSix(){
     return(
         <>
@@ -46,8 +45,6 @@ export default function HomeSix(){
                     </li>
             </ul>
         </div>
-        <div className={Styles.ReadytoWatch}>Ready to watch? Enter your email to create or restart your membership.</div>
-        <Form/>
         <div className={Styles.BorderBottom}></div>
         </>
     )
