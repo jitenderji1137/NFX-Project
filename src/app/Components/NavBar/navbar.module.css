@@ -1,5 +1,26 @@
 .Nav{
     position: absolute;
     z-index: 10;
-    width: 100vw;
+    width: 90vw;
+    height: 5vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+.Nav > div:nth-child(1){
+    display: flex;
+    align-items: center;
+}
+.Nav > div:nth-child(1) > div:nth-child(1) > img{
+    width: 5vw;
+    height: auto;
+    margin: 0 5vw 0 2vw;
+}
+.Nav > div:nth-child(1) > div:nth-child(2) > a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1.3vw;
+    font-size: 1.1vw;
 }
