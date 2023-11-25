@@ -73,6 +73,7 @@
 .Heading{
     color: white;
     text-align: center;
+    margin-bottom: 3vw;
 }
 .Heading > div:nth-child(1){
     font-size: 4vw;
@@ -111,6 +112,7 @@
     border-radius: 0.5vw;
     border: none;
     padding: 1vw 2vw;
+    cursor: pointer;
     color: white;
     font-size: 1.3vw;
 }

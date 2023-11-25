@@ -20,15 +20,14 @@ export default async function HomeOne(){
                                 <Link href="/">Talgu</Link>
                             </span>
                         </span>
-                        <Link href="/">Sign In</Link>
+                        <Link href="/browse">Enter</Link>
                     </div>
                 </nav>
                 <div className={Styles.Heading}>
                     <div>Unlimited movies, TV shows and more.</div>
                     <div>Watch anywhere. Cancel anytime.</div>
-                    <div>Ready to watch? Enter your email to create or restart your membership.</div>
                 </div>
-                <Form/>
+                {/* <Form/> */}
             </div>
         </div>
         </>
