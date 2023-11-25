@@ -6,7 +6,7 @@ export default function Navbar(){
         <>
         <nav className={Styles.Nav}>
             <div>
-                <div><Image src="/Logo.png" width={300} height={300}/></div>
+                <div><Link href="/"><Image src="/Logo.png" width={300} height={300}/></Link></div>
                 <div>
                     <Link href="/browse">Home</Link>
                     <Link href="/">TV Shows</Link>

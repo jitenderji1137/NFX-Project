@@ -5,14 +5,11 @@
 html,body{
     background-color: black;
 	scroll-behavior: smooth;
+	width: 100vw;
 }
 body::-webkit-scrollbar{
-	width: 0.5vw;
+	width: 0vw;
 	background-color: black;
-}
-body::-webkit-scrollbar-thumb{
-	border-radius: 10px;
-	background-color: #262a2e;
 }
 .default-ltr-cache-1d568uk{
     color: red;

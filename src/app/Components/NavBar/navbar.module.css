@@ -1,9 +1,10 @@
 .Nav{
-    position: absolute;
+    position: fixed;
     z-index: 10;
     width: 90vw;
     height: 5vw;
     color: white;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,7 +14,7 @@
     display: flex;
     align-items: center;
 }
-.Nav > div:nth-child(1) > div:nth-child(1) > img{
+.Nav > div:nth-child(1) > div:nth-child(1) > a > img{
     width: 5vw;
     height: auto;
     margin: 0 5vw 0 2vw;
