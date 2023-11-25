@@ -122,7 +122,7 @@
     width: 2vw;
     height: auto;
 }
-@media screen and (min-width: 0px) and (max-width: 550px) {
+@media screen and (min-width: 0px) and (max-width: 800px) {
     .Heading > div:nth-child(1){
         font-size: 5vw;
         max-width: 90vw;
@@ -161,5 +161,51 @@
     }
     .HomeOne > div{
         padding-bottom: 8vw;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 500px) {
+    .HomeOne > div{
+        padding-bottom: 15vw;
+    }
+    .HomeOne{
+        background-size: auto 120vw;
+    }
+    .Heading > div:nth-child(1){
+        font-size: 10vw;
+        margin: 5vw auto;
+    }
+    .Heading > div:nth-child(2){
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    .Heading > div:nth-child(3){
+        font-size: 3.5vw;
+    }
+    .Email > input{
+        width: 50vw;
+        font-size: 5vw;
+    }
+    .Email > button{
+        font-size: 5vw;
+    }
+    .Email{
+        margin-top: 5vw;
+    }
+    .Nav > div:nth-child(1){
+        width: 20vw;
+    }
+    .Nav > div:nth-child(2) > a{
+        font-size: 3.3vw;
+    }
+    .Nav > div:nth-child(2) > span > div{
+        font-size: 3.3vw;
+    }
+    .Imagess{
+        width: 3vw;
+        height: auto;
+    }
+    .Images{
+        width: 3vw;
+        height: auto;
     }
 }
