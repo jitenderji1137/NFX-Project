@@ -24,7 +24,7 @@ export default async function BrowseOne(){
                                 <span>{Banner.Duration}</span>
                                 <span> | </span>
                                 <span>{Banner.Geans} </span>
-                                <Link href={`/entertainment/player/${Banner.Link}/${Banner.Name.split(" ").join("-")}`}>Play</Link>
+                                <Link href={`/player/${Banner.Link}/${Banner.Name.split(" ").join("-")}`}>Play</Link>
                             </div>
                             <div className={Styles.Paragraph}>
                                 <div>{Banner.Paragraph}</div>
@@ -46,7 +46,7 @@ export default async function BrowseOne(){
                         <span></span>
                         <Link href="/">Thriller</Link>
                     </div>
-                    <Link href={`/entertainment/player/${Banner.Link}/${Banner.Name.split(" ").join("-")}`}>Play</Link>
+                    <Link href={`/player/${Banner.Link}/${Banner.Name.split(" ").join("-")}`}>Play</Link>
                 </div>
             </div>
         </>

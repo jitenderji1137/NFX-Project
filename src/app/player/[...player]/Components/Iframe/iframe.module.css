@@ -1,0 +1,13 @@
+.Iframe{
+    border: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 2vw;
+}
+.Iframe > iframe{
+    border: none;
+    width: 85vw;
+    aspect-ratio: 16/9;
+}
