@@ -75,7 +75,7 @@
     }
     .TextDivTwo{
         display: flex;
-        height: 130vw;
+        height: 120vw;
         align-items: center;
         justify-content: end;
         flex-direction: column;
@@ -104,5 +104,15 @@
         width: 1vw;
         height: 1vw;
         border-radius: 50%;
+    }
+    .TextDivTwo > a{
+        border: 1px solid rgb(0, 0, 0);
+        background-color: red;
+        margin-left: 1vw;
+        color: white;
+        text-decoration: none;
+        border-radius: 2vw;
+        padding: 1vw 5vw;
+        font-size: 5vw;
     }
 }

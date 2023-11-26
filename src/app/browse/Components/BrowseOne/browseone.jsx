@@ -46,7 +46,7 @@ export default async function BrowseOne(){
                         <span></span>
                         <Link href="/">Thriller</Link>
                     </div>
-                    <div></div>
+                    <Link href={`/entertainment/player/${Banner.Link}/${Banner.Name.split(" ").join("-")}`}>Play</Link>
                 </div>
             </div>
         </>
