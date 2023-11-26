@@ -1,14 +1,17 @@
 .TextDiv {
     width: 100%;
-    background-size: 100% 55vw;
+    background-size: 100% auto;
     background-repeat: no-repeat;
+    background-position: center;
     box-shadow: inset 0px 100px 100px 0px rgba(0,0,0);
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
 }
-.TextDiv > div {
-    height: 55vw;
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.79) 35%,hsla(0,0%,9%,.58) 40%,hsla(0,0%,9%,.53) 45%,hsla(0,0%,9%,.2) 50%,hsla(0,0%,9%,0) 55%,hsla(0,0%,9%,0) 60%,hsla(0,0%,9%,0) 65%,hsla(0,0%,9%,0) 70%,hsla(0,0%,9%,0) 75%,hsla(0,0%,9%,.21) 80%,hsla(0,0%,9%,0) 85%,hsla(0,0%,9%,0) 90%,hsla(0,0%,9%,0) 95%,hsla(0,0%,9%,0));
+.TextDivTwo{
+    display: none;
 }
+.TextDiv > div:nth-child(1) {
+    height: 55vw;
+    background: linear-gradient(90deg,#000000 10%,hsl(0deg 0% 0% / 98%) 20%,hsl(0deg 0% 0% / 91%) 25%,hsl(0deg 0% 0% / 79%) 35%,hsl(0deg 0% 0% / 58%) 40%,hsla(0,0%,9%,.53) 45%,hsl(0deg 0% 0% / 20%) 50%,hsl(0deg 0% 0% / 0%) 55%,hsla(0,0%,9%,0) 60%,hsla(0,0%,9%,0) 65%,hsla(0,0%,9%,0) 70%,hsla(0,0%,9%,0) 75%,hsla(0,0%,9%,.21) 80%,hsla(0,0%,9%,0) 85%,hsla(0,0%,9%,0) 90%,hsla(0,0%,9%,0) 95%,hsla(0,0%,9%,0));}
 .TextDiv > div > div {
     display: flex;
     align-items: center;
@@ -63,4 +66,21 @@
     font-size: 1vw;
 }
 @media screen and (min-width: 0px) and (max-width: 600px) {
+    .TextDiv{
+        background-size: auto 130vw;
+    }
+    .TextDiv > div:nth-child(1){
+        display: none;
+    }
+    .TextDivTwo{
+        display: flex;
+        height: 130vw;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .TextDivTwo > div > img{
+        width: 100%;
+        height: auto;
+    }
 }

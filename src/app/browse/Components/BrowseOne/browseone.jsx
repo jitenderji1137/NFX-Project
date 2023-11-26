@@ -37,6 +37,16 @@ export default async function BrowseOne(){
                         </div>
                     </div>
                 </div>
+                <div className={Styles.TextDivTwo}>
+                    <div><Image src={Banner.Small_Image} priority={false} alt='banner' width={400} height={400}/></div>
+                    <div>
+                        <Link href="/">Action</Link>
+                        <Link href="/">Action</Link>
+                        <Link href="/">Action</Link>
+                        <Link href="/">Action</Link>
+                    </div>
+                    <div></div>
+                </div>
             </div>
         </>
     )

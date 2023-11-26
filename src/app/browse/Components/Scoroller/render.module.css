@@ -1,15 +1,15 @@
 .fnvbsjdbvdfjhbvuhef{
-    margin-top: -25vh;
+    margin-top: -10vw;
 }
 .customContainer {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-left: 1.25vw;
+    padding-right: 1.25vw;
     display: flex;
     justify-content: space-between;
 }
 .customContainer > span {
-    margin-top: 0.75rem;
-    font-size: 1.5rem;
+    margin-top: 0.75vw;
+    font-size: 1.5vw;
     cursor: default;
     color: white;
     font-family: 'Concert One',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -17,11 +17,11 @@
 .customContainer > a {
     color: white;
     background-color: rgb(0, 0, 0);
-    padding: 0.5rem 1.5rem;
+    padding: 0.5vw 1.5vw;
     border-radius: 5px;
     box-shadow: rgba(0, 238, 255, 0.473) 0px 4px 8px -2px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1vw;
     font-family: 'Concert One',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .Conainer {
@@ -29,8 +29,8 @@
     flex-wrap: nowrap;
     overflow-x: scroll;
     scroll-behavior: smooth;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
 }
 .Conainer::-webkit-scrollbar{
 	width: 0;
@@ -38,14 +38,14 @@
 }
 .OneImage{
     position: relative;
-    padding: 1rem 0.5rem;
-    margin-bottom: 1.25rem;
-    border-radius: 0.25rem;
+    padding: 1vw 0.5vw;
+    margin-bottom: 1.25vw;
+    border-radius: 0.25vw;
 }
 .Images {
-    border-radius: 0.25rem;
+    border-radius: 0.25vw;
     width: auto;
-    height: 10rem;
+    height: 10vw;
     cursor: pointer;
     transition-duration: 0.3s;
     position: relative;
@@ -57,74 +57,21 @@
 .ScrollLeft,.ScrollRight{
     position: absolute;
     z-index: 10;
-    height: 10rem;
+    height: 10vw;
     color: white;
     cursor: pointer;
     border: none;
-    margin-top: 1rem;
+    font-size: 1vw;
+    margin-top: 1vw;
 }
 .ScrollLeft{
     left: 0;
-    border-radius: 0 1rem 1rem 0;
+    border-radius: 0 1vw 1vw 0;
     background: linear-gradient(90deg,#000000 10%,hsl(0deg 0% 0% / 98%) 20%,hsl(0deg 0% 0% / 97%) 25%,hsl(0deg 0% 0% / 95%) 35%,hsl(0deg 0% 0% / 94%) 40%,hsl(0deg 0% 0% / 92%) 45%,hsl(0deg 0% 0% / 90%) 50%,hsl(0deg 0% 0% / 87%) 55%,hsl(0deg 0% 0% / 82%) 60%,hsl(0deg 0% 0% / 75%) 65%,hsl(0deg 0% 0% / 63%) 70%,hsl(0deg 0% 0% / 45%) 75%,hsl(0deg 0% 0% / 27%) 80%,hsl(0deg 0% 0% / 15%) 85%,hsl(0deg 0% 0% / 8%) 90%,hsl(0deg 0% 0% / 3%) 95%,hsl(0deg 0% 0% / 0%));
 }
 .ScrollRight{
     right: 0;
     background: linear-gradient(90deg,#00000000 10%,hsl(0deg 0% 0% / 0%) 20%,hsl(0deg 0% 0% / 28%) 25%,hsl(0deg 0% 0% / 62%) 35%,hsl(0deg 0% 0% / 82%) 40%,hsl(0deg 0% 0% / 92%) 45%,hsl(0deg 0% 0% / 95%) 50%,hsl(0deg 0% 0% / 96%) 55%,hsl(0deg 0% 0%) 60%,hsl(0deg 0% 0%) 65%,hsl(0deg 0% 0%) 70%,hsl(0deg 0% 0%) 75%,hsl(0deg 0% 0%) 80%,hsl(0deg 0% 0%) 85%,hsl(0deg 0% 0%) 90%,hsl(0deg 0% 0%) 95%,hsl(0deg 0% 0%));
 }
-@media screen and (min-width: 0px) and (max-width: 1700px) {
-}
-@media screen and (min-width: 0px) and (max-width: 1500px) {
-}
-@media screen and (min-width: 0px) and (max-width: 1300px) {
-}
-@media screen and (min-width: 0px) and (max-width: 1100px) {
-    .fnvbsjdbvdfjhbvuhef{
-        margin-top: -20vh;
-    }
-    .customContainer {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    .Images {
-        height: 7rem;
-    }
-    .ScrollLeft,.ScrollRight{
-        height: 7rem;
-    }
-}
-@media screen and (min-width: 0px) and (max-width: 1000px) {
-}
 @media screen and (min-width: 0px) and (max-width: 800px) {
-}
-@media screen and (min-width: 0px) and (max-width: 700px) {
-}
-@media screen and (min-width: 0px) and (max-width: 600px) {
-    .customContainer {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .customContainer > span {
-        font-size: 1rem;
-    }
-    .customContainer > a {
-        padding: 0.3rem 1rem;
-    }
-    .OneImage{
-        padding: 0.3rem 0.5rem 0 0;
-    }
-    .Images {
-        height: 6rem;
-    }
-    .ScrollLeft,.ScrollRight{
-        height: 6rem;
-    }
-}
-@media screen and (min-width: 0px) and (max-width: 500px) {
-    .ScrollLeft,.ScrollRight{
-        display: none;
-    }
-    .Conainer{
-        padding: 0;
-    }
 }
