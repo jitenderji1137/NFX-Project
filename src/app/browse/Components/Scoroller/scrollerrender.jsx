@@ -21,7 +21,7 @@ export default function Render({Data}){
         <div>
             <div className={Styles.customContainer}>
                 <span>{Data[1]}</span>
-                <Link href={Data[2]}>More &#x276F;&#x276F;</Link>
+                <Link href={Data[2]}>More&#x276F;&#x276F;</Link>
             </div>
             <div ref={containerRef} className={Styles.Conainer}>
             <button className={Styles.ScrollLeft} onClick={handelScrollLeft}>&nbsp;&nbsp; &#x276E;&#x276E; &nbsp;&nbsp;&nbsp;&nbsp;</button>
