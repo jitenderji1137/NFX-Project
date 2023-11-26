@@ -2,7 +2,6 @@
     width: 100%;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-position: center;
     box-shadow: inset 0px 100px 100px 0px rgba(0,0,0);
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
 }
@@ -12,7 +11,7 @@
 .TextDiv > div:nth-child(1) {
     height: 55vw;
     background: linear-gradient(90deg,#000000 10%,hsl(0deg 0% 0% / 98%) 20%,hsl(0deg 0% 0% / 91%) 25%,hsl(0deg 0% 0% / 79%) 35%,hsl(0deg 0% 0% / 58%) 40%,hsla(0,0%,9%,.53) 45%,hsl(0deg 0% 0% / 20%) 50%,hsl(0deg 0% 0% / 0%) 55%,hsla(0,0%,9%,0) 60%,hsla(0,0%,9%,0) 65%,hsla(0,0%,9%,0) 70%,hsla(0,0%,9%,0) 75%,hsla(0,0%,9%,.21) 80%,hsla(0,0%,9%,0) 85%,hsla(0,0%,9%,0) 90%,hsla(0,0%,9%,0) 95%,hsla(0,0%,9%,0));}
-.TextDiv > div > div {
+.TextDiv > div:nth-child(1) > div{
     display: flex;
     align-items: center;
     max-width: 50vw; 
@@ -68,6 +67,8 @@
 @media screen and (min-width: 0px) and (max-width: 600px) {
     .TextDiv{
         background-size: auto 130vw;
+        background-position-x: -110vw;
+        box-shadow: none;
     }
     .TextDiv > div:nth-child(1){
         display: none;
@@ -76,8 +77,13 @@
         display: flex;
         height: 130vw;
         align-items: center;
-        justify-content: center;
+        justify-content: end;
         flex-direction: column;
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8071603641456583) 13%, rgba(130,0,0,0) 100%);
+    }
+    .TextDivTwo > div{
+        height: 10vw;
+        width: 60vw;
     }
     .TextDivTwo > div > img{
         width: 100%;
