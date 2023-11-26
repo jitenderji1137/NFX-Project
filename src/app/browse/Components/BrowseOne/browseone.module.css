@@ -82,11 +82,27 @@
         background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8071603641456583) 13%, rgba(130,0,0,0) 100%);
     }
     .TextDivTwo > div{
-        height: 10vw;
+        height: 15vw;
         width: 60vw;
+        text-align: center;
     }
     .TextDivTwo > div > img{
         width: 100%;
         height: auto;
+    }
+    .TextDivTwo > div:nth-child(2){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .TextDivTwo > div:nth-child(2) > a{
+        color: rgba(255, 255, 255, 0.692);
+        text-decoration: none;
+    }
+    .TextDivTwo > div:nth-child(2) > span{
+        background-color: red;
+        width: 1vw;
+        height: 1vw;
+        border-radius: 50%;
     }
 }

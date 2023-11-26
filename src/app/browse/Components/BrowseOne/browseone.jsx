@@ -41,9 +41,10 @@ export default async function BrowseOne(){
                     <div><Image src={Banner.Small_Image} priority={false} alt='banner' width={400} height={400}/></div>
                     <div>
                         <Link href="/">Action</Link>
-                        <Link href="/">Action</Link>
-                        <Link href="/">Action</Link>
-                        <Link href="/">Action</Link>
+                        <span></span>
+                        <Link href="/">Adventure</Link>
+                        <span></span>
+                        <Link href="/">Thriller</Link>
                     </div>
                     <div></div>
                 </div>
