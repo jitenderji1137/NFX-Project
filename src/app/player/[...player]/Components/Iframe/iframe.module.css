@@ -1,13 +1,25 @@
 .Iframe{
     border: none;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
+    align-items: center;
     width: 100vw;
-    margin-top: 2vw;
+    height: 100vh;
 }
 .Iframe > iframe{
     border: none;
     width: 85vw;
+    height: auto;
     aspect-ratio: 16/9;
+}
+@media screen and (min-width: 0px) and (max-width: 1100px) {
+    .Iframe > iframe{
+        width: 100vw;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .Iframe > iframe{
+        margin-bottom: 20vw;
+        height: 70vh;
+    }
 }

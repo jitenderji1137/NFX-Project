@@ -9,11 +9,9 @@ export default async function IframePlayer({ID}){
     const title = response.Title;
     const image = response.Image;
     const fileid = response.FileID;
-    let download = null;
     let iframeUrl = '';
     if (response.Plateform === 'filemoon') {
       iframeUrl = `https://filemoon.sx/e/${fileid}?poster=${image}&logo=https://i.postimg.cc/vTYqnTZs/Logo.png`;
-      download = `https://filemoon.sx/download/${fileid}`
     } else if (response.Plateform === 'Youtube') {
       iframeUrl = `https://www.youtube.com/embed/${fileid}`;
     } else if (response.Plateform === 'Vidsrc') {
@@ -24,7 +22,6 @@ export default async function IframePlayer({ID}){
       iframeUrl = `https://vidsrc.me//embed//${embedType}?imdb=${fileid}`;
     } else if (response.Plateform === 'streamtape') {
       iframeUrl = `https://antiadtape.com/e/${fileid}?thumb=${image}`;
-      download = `https://antiadtape.com/v/${fileid}`
     }
     return(
         <>
